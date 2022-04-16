@@ -4,3 +4,17 @@
     width: 100%;
     padding: 0;
 }
+
+.search-btn {
+    background-color: rgb(247, 34, 34);
+    position: relative;
+    right: 30px;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.search-btn:hover {
+    color: #ffff;
+    background-color: rgb(110, 4, 4);
+    transition: 1s;
+}

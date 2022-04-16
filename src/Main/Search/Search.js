@@ -6,12 +6,13 @@ const Search = () => {
     return (
         <div className='container-fluid search d-flex justify-content-center align-items-center' style={{ backgroundImage: `url(${searchBackground})` }}>
             <div>
-                <h3 className='text-center'>Best food wating for your belly</h3>
-                <div class="input-group mb-3">
-                    <input id="input-field" type="text" class="form-control" placeholder="Search phone"
+                <h1 className='text-center mb-3'>Best food wating for your belly</h1>
+                <div class="input-group mt-2 ms-3">
+                    <input id="input-field" type="text" class="form-control rounded-pill" placeholder="Search food items"
                         aria-label="Recipient's username" aria-describedby="button-addon2" />
-                    <button class="btn btn-outline-warning" type="button"
+                    <button class="btn px-4 rounded-pill search-btn" type="button"
                         id="button-addon2">Search</button>
+
                 </div>
             </div>
         </div>
