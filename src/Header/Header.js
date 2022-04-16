@@ -8,7 +8,7 @@ import Search from '../Main/Search/Search';
 const Header = () => {
     return (
         <>
-            <Navbar collapseOnSelect expand="lg">
+            <Navbar sticky='top' collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Brand href="#home"><img style={{ width: '200px', height: '40px' }} src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -27,6 +27,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            <Search></Search>
         </>
     );
 };
