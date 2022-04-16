@@ -1,11 +1,11 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from './Header/Header'
 
 function App() {
   return (
     <div className="App">
-
-      <h3 className='text-slate-500'>this is hungry dude website</h3>
+      <Header></Header>
     </div>
   );
 }
