@@ -8,7 +8,7 @@ import Search from '../Main/Search/Search';
 const Header = () => {
     return (
         <>
-            <Navbar sticky='top' collapseOnSelect expand="lg">
+            <Navbar collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Brand href="#home"><img style={{ width: '200px', height: '40px' }} src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

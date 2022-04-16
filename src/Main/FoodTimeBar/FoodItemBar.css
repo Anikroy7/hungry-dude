@@ -1,0 +1,10 @@
+.nav-item a {
+    color: rgb(50, 43, 82);
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: rgb(233, 98, 98);
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './FoodItemBar.css'
 
 const FoodTimeBar = () => {
     return (
@@ -9,10 +10,10 @@ const FoodTimeBar = () => {
                 <Nav.Link as={Link} to="/breakfast">Breakfast</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link as={Link} to='/lunch' eventKey="link-1">Lunch</Nav.Link>
+                <Nav.Link as={Link} to='/lunch' eventKey="">Lunch</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link as={Link} to='/dinner' eventKey="link-2">Dinner</Nav.Link>
+                <Nav.Link as={Link} to='/dinner' eventKey="">Dinner</Nav.Link>
             </Nav.Item>
         </Nav>
 

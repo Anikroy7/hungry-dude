@@ -1,0 +1,10 @@
+.food-item img {
+    width: 250px;
+}
+
+.food-item:nth-child(2) {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 2px rgb(206, 199, 199);
+
+}
